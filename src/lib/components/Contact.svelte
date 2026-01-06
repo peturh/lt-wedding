@@ -25,7 +25,7 @@
 		<div class="col-span-2 text-right">Brud</div>
 		<div class="col-span-4 mx-4">
 			Louise Lundmark, <a href="tel:0703338952">0703-338952</a>,
-			<a class="email" href="mailto:lisamaria.lindberg@gmail.com">✉️</a>
+			<a class="email" href="mailto:evalouiselundmark@gmail.com">✉️</a>
 		</div>
 	</div>
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">

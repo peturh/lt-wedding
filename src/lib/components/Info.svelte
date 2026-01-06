@@ -3,9 +3,8 @@
 </script>
 
 <section class="top-section">
-	<div class="pre-title">Välkommen till</div>
-	<div class="pre-title">bröllop mellan</div>
-	<h1 class="title">Louise <span class="ampersand">&</span> Teodor</h1>
+	<div class="pre-title">Välkommen till bröllop mellan</div>
+	<h1 class="title">Louise & Teodor</h1>
 	<div class="pre-title">Första Augusti 2026</div>
 </section>
 <Divider />
@@ -16,14 +15,14 @@
 		<div class="col-span-2 text-right">Tid <span class="ampersand">&</span> Plats</div>
 		<div class="col-span-4 mx-4">
 			Vigseln hålls i Kirsebergs kyrka kl 12.30 efterföljt av middag och bröllopsfest på Grand
-			Cirkus Hotel i Malmö.
+			Circus Hotel i Malmö.
 		</div>
 	</div>
 
-	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
+	<!-- <div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Transport dit</div>
 		<div class="col-span-4 mx-4">Det finns flera sätt att ta sig till Kirsebergs kyrka.</div>
-	</div>
+	</div> -->
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Kollektivtrafik</div>
@@ -33,8 +32,8 @@
 			<br /><br />
 			Från Triangeln (norra uppgången) går buss 15 (mot Arlöv) till Kirsebergsskolan, sen är det bara
 			en kort promenad på 10 minuter.
-
-			<a target="_blank" href="https://www.skanetrafiken.se">Skånetrafiken</a>
+			<br /><br />
+			Se <a target="_blank" href="https://www.skanetrafiken.se">Skånetrafiken</a>
 			för reseplanerare.
 		</div>
 	</div>
@@ -62,7 +61,7 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Klädsel</div>
 		<div class="col-span-4 mx-4">
-			Något ni känner er fina i, underlaget på Grand Cirkus Hotell är grus och gräs, så tänk på det
+			Något ni känner er fina i, underlaget på Grand Circus Hotell är grus och gräs, så tänk på det
 			vid valet av skor.
 		</div>
 	</div>
@@ -110,5 +109,6 @@
 	}
 	.title {
 		margin: 0 auto;
+		font-weight: 400;
 	}
 </style>
