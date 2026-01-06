@@ -11,13 +11,15 @@ export const actions = {
         let phoneNumber = data.get('phoneNumber') || '';
         let email = data.get('email') || '';
         let foodPreference = data.get('foodPreference') || '';
+        let other = data.get('other') || '';
 
         if (password == env.FORM_PASSWORD) {
             await addGuest({
                 name: name.toString(),
                 phoneNumber: phoneNumber.toString(),
                 email: email.toString(),
-                foodPreference: foodPreference.toString()
+                foodPreference: foodPreference.toString(),
+                other: other.toString()
             });
             return { success: true, person: name.toString() };
         } else {
@@ -27,6 +29,7 @@ export const actions = {
                 phoneNumber: phoneNumber.toString(),
                 email: email.toString(),
                 foodPreference: foodPreference.toString(),
+                other: other.toString(),
                 password: password?.toString() ?? ''
             };
         }

@@ -16,6 +16,7 @@ export interface GuestData {
     phoneNumber: string;
     email: string;
     foodPreference: string;
+    other: string;
 }
 
 export async function addGuest(guest: GuestData): Promise<void> {
@@ -23,10 +24,10 @@ export async function addGuest(guest: GuestData): Promise<void> {
 
     await sheets.spreadsheets.values.append({
         spreadsheetId: env.GOOGLE_SHEET_ID,
-        range: 'Sheet1!A:E',
+        range: 'Sheet1!A:F',
         valueInputOption: 'USER_ENTERED',
         requestBody: {
-            values: [[timestamp, guest.name, guest.phoneNumber, guest.email, guest.foodPreference]]
+            values: [[timestamp, guest.name, guest.phoneNumber, guest.email, guest.foodPreference, guest.other]]
         }
     });
 }
