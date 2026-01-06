@@ -8,7 +8,7 @@
 				iframe.setAttribute('title', 'Karta över platser');
 				iframe.setAttribute(
 					'src',
-					'https://storage.googleapis.com/maps-solutions-u7luppubmm/locator-plus/7su7/locator-plus.html'
+					'https://storage.googleapis.com/maps-solutions-qh33r87e57/locator-plus/o33d/locator-plus.html'
 				);
 				iframe.setAttribute('height', '100%');
 				iframe.setAttribute('width', '100%');
