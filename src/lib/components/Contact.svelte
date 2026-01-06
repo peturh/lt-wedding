@@ -31,7 +31,7 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Brudgum</div>
 		<div class="col-span-4 mx-4">
-			Teodor Westerberg, <a href="tel:0708927080">0708-927080</a>,
+			Teodor Wester, <a href="tel:0708927080">0708-927080</a>,
 			<a class="email" href="mailto:teodor.wester@gmail.com">✉️</a>
 		</div>
 	</div>

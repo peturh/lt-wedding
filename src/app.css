@@ -7,11 +7,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Jost', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     scroll-behavior: smooth;
     text-rendering: auto;
     font-smooth: auto;
     color: #00592E;
+    background-color: #F2E4E1;
     letter-spacing: 1px;
     line-height: 1.5;
     /* @apply font-medium */
@@ -30,7 +31,7 @@ p {
 h1 {
     font-family: 'Jost', sans-serif;
     text-align: center;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 
@@ -40,7 +41,7 @@ h4,
 h5 {
     font-family: 'Jost', sans-serif;
     text-align: center;
-    font-weight: 200;
+    font-weight: 400;
     font-style: italic;
     letter-spacing: 0;
 }

@@ -12,7 +12,7 @@
 	<h2 id="info">Information</h2>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Tid <span class="ampersand">&</span> Plats</div>
+		<div class="col-span-2 text-right">Tid & Plats</div>
 		<div class="col-span-4 mx-4">
 			Vigseln hålls i Kirsebergs kyrka kl 12.30 efterföljt av middag och bröllopsfest på Grand
 			Circus Hotel i Malmö.
@@ -69,8 +69,8 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Barn</div>
 		<div class="col-span-4 mx-4">
-			Barn är välkomna, meddela oss om det i samband med OSA. Anmäl barn separat via formuläret.
-			Kontakta Louise eller Teodor vid frågor.
+			Barn är välkomna. Anmäl barn genom att fylla i det under "övrigt" i formuläret. Kontakta
+			Louise eller Teodor vid frågor.
 		</div>
 	</div>
 
@@ -91,7 +91,7 @@
 	}
 	.pre-title {
 		font-family: 'Jost', sans-serif;
-		font-weight: 200;
+		font-weight: 400;
 		font-style: italic;
 		font-size: 18px;
 		margin: 1rem auto;
