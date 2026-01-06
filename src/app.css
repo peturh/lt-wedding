@@ -14,6 +14,7 @@ body {
     color: #00592E;
     letter-spacing: 1px;
     line-height: 1.5;
+    /* @apply font-medium */
 }
 
 section {
@@ -70,12 +71,11 @@ h2 {
 }
 
 .flower-image {
-    &.top {
-        height: 615px;
-    }
+
 
     &.bot {
-        height: 615px;
+        height: 455px;
+        width: 100%;
     }
 }
 
@@ -85,14 +85,12 @@ h2 {
         z-index: -1;
         opacity: 0.3;
 
-        &.top {
-            top: -4rem;
-            right: -1rem;
-        }
 
         &.bot {
-            bottom: -3rem;
-            left: -3rem;
+
+            height: 310px;
+
+
         }
     }
 
