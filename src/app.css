@@ -61,7 +61,7 @@ h2 {
 
     &.bot {
         bottom: 0;
-        left: 1rem;
+        left: 0;
     }
 
     &.top {
@@ -86,11 +86,8 @@ h2 {
         opacity: 0.3;
 
 
-        &.bot {
-
-            height: 310px;
-
-
+        .flower-image {
+            height: 300px;
         }
     }
 
