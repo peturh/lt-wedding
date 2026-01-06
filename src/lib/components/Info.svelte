@@ -5,8 +5,8 @@
 <section class="top-section">
 	<div class="pre-title">Välkommen till</div>
 	<div class="pre-title">bröllop mellan</div>
-	<h1 class="title">Lisa <span class="ampersand">&</span> Pétur</h1>
-	<div class="pre-title">Första juni 2024</div>
+	<h1 class="title">Louise <span class="ampersand">&</span> Teodors</h1>
+	<div class="pre-title">Första Augusti 2026</div>
 </section>
 <Divider />
 <section>
@@ -34,7 +34,7 @@
 		<div class="col-span-2 text-right">Transfer</div>
 		<div class="col-span-4 mx-4">
 			Vi har ordnat med transfer mellan kyrkan och festlokalen. Ska ni åka bil hela dagen får ni
-			gärna maila Pétur eller Lisa så dom vet hur många platser som behövs för buss.
+			gärna maila Teodor eller Louise så dom vet hur många platser som behövs för buss.
 		</div>
 	</div>
 

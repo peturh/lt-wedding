@@ -93,7 +93,7 @@
 {:else}
 	<section>
 		<p>Ni kan tyvärr inte längre anmäla er.</p>
-		<p>Om Ni får förhinder kontakta Lisa eller Pétur via telefon eller SMS</p>
+		<p>Om Ni får förhinder kontakta Louise eller Teodor via telefon eller SMS</p>
 	</section>
 {/if}
 

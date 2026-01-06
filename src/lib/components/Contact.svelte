@@ -36,14 +36,14 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Brudgum</div>
 		<div class="col-span-4 mx-4">
-			Pétur G. Hjartarson, <a href="tel:0763194458">0763-194458</a>,
+			Teodor G. Hjartarson, <a href="tel:0763194458">0763-194458</a>,
 			<a class="email" href="mailto:petur.hjartarson@gmail.com">✉️</a>
 		</div>
 	</div>
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Brud</div>
 		<div class="col-span-4 mx-4">
-			Lisa Stenström Lindberg, <a href="tel:0707783527">0707-783527</a>,
+			Louise Stenström Lindberg, <a href="tel:0707783527">0707-783527</a>,
 			<a class="email" href="mailto:lisamaria.lindberg@gmail.com">✉️</a>
 		</div>
 	</div>

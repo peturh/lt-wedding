@@ -12,7 +12,7 @@
 		<div class="col-span-2 text-right">Närmst</div>
 		<div class="col-span-4 mx-4">
 			<a href="http://www.dahlshotell.se/">Sure Hotel by Best Western i Löddeköpinge</a>
-			Ring och uppge att ni ska på bröllop hos Lisa & Pétur så får ni ca ~10% rabatt
+			Ring och uppge att ni ska på bröllop hos Louise & Teodor så får ni ca ~10% rabatt
 		</div>
 	</div>
 
