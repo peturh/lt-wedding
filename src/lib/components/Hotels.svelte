@@ -25,9 +25,9 @@
 			<a href="https://www.scandichotels.se/hotell/sverige/malmo/scandic-triangeln"
 				>Scandic Triangeln</a
 			><br />
-			<a href="https://www.mjshotell.se/">MJs Hotell</a><br />
-			<a href="https://www.hotellnhostels.se/">Hotel n Hostels</a><br />
-			<a href="https://www.storyhotels.com/malmo/">Story Hotel</a>
+			<a href="https://mjs.life/">MJs Hotell</a><br />
+			<a href="https://hotelnhostel.se/">Hotel n Hostels</a><br />
+			<a href="https://www.hyatt.com/story-hotels/en-US/mmxjd-story-hotel-malmo">Story Hotel</a>
 		</div>
 	</div>
 </section>
