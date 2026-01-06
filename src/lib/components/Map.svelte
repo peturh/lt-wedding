@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { PUBLIC_GOOGLE_MAPS_API_KEY } from '$env/static/public';
 	import { onMount } from 'svelte';
 
 	const CONFIGURATION = {
@@ -28,7 +29,7 @@
 			maxZoom: 17,
 			mapId: ''
 		},
-		mapsApiKey: 'AIzaSyBlDWdTW_4Zxo6htmUJIBMYue0LYYqMoZI',
+		mapsApiKey: PUBLIC_GOOGLE_MAPS_API_KEY,
 		capabilities: {
 			input: true,
 			autocomplete: true,
@@ -60,7 +61,7 @@
 	<h2 id="karta">Hitta hit</h2>
 	<div id="map-wrapper" class="map-wrapper">
 		<gmpx-api-loader
-			key="AIzaSyBlDWdTW_4Zxo6htmUJIBMYue0LYYqMoZI"
+			key={PUBLIC_GOOGLE_MAPS_API_KEY}
 			solution-channel="GMP_QB_locatorplus_v11_cABD"
 		/>
 		<gmpx-store-locator map-id="DEMO_MAP_ID" />
