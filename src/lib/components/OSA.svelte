@@ -7,7 +7,7 @@
 	export let form: ActionData;
 
 	// RSVP deadline - set to null to keep form open, or use format 'YYYY-MM-DD'
-	const RSVP_DEADLINE: string | null = null; // e.g. '2025-03-01'
+	const RSVP_DEADLINE: string | null = '2026-04-01';
 
 	const deadline = RSVP_DEADLINE ? dayjs(RSVP_DEADLINE) : null;
 	const isOpen = !deadline || dayjs().isBefore(deadline);
@@ -89,6 +89,9 @@
 				<div transition:fade class="message password">Fel lösenord</div>
 			{/if}
 		</form>
+		<p>
+			Om Ni redan anmält er men får förhinder kontakta Louise eller Teodor via telefon eller SMS
+		</p>
 	</section>
 {:else}
 	<section>

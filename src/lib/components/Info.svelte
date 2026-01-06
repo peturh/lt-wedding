@@ -5,7 +5,7 @@
 <section class="top-section">
 	<div class="pre-title">Välkommen till</div>
 	<div class="pre-title">bröllop mellan</div>
-	<h1 class="title">Louise <span class="ampersand">&</span> Teodors</h1>
+	<h1 class="title">Louise <span class="ampersand">&</span> Teodor</h1>
 	<div class="pre-title">Första Augusti 2026</div>
 </section>
 <Divider />
@@ -15,52 +15,71 @@
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Tid <span class="ampersand">&</span> Plats</div>
 		<div class="col-span-4 mx-4">
-			Vigseln hålls i Löddeköpinge kyrka kl 14.30 efterföljt av bröllopsfest och middag på
-			Västrahögsgården i Hög.
+			Vigseln hålls i Kirsebergs kyrka kl 12.30 efterföljt av middag och bröllopsfest på Grand
+			Cirkus Hotel i Malmö.
 		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Transport dit</div>
+		<div class="col-span-4 mx-4">Det finns flera sätt att ta sig till Kirsebergs kyrka.</div>
+	</div>
+
+	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
+		<div class="col-span-2 text-right">Kollektivtrafik</div>
 		<div class="col-span-4 mx-4">
-			Från Malmö till kyrkan kan man åka tåg till Kävlinge och sen byta till buss. Det går även buss
-			från Malmö till Kyrkan hela vägen. Från Lund åker det buss hela vägen.<br /> Se
+			Från Malmö C kan du ta buss 4 (mot Segevång) till Solgatan och gå sista biten, ca 5 min, eller
+			ta Pågatåget till Östervärn station och promenera ungefär 15 minuter.
+			<br /><br />
+			Från Triangeln (norra uppgången) går buss 15 (mot Arlöv) till Kirsebergsskolan, sen är det bara
+			en kort promenad på 10 minuter.
+
 			<a target="_blank" href="https://www.skanetrafiken.se">Skånetrafiken</a>
 			för reseplanerare.
 		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Transfer</div>
+		<div class="col-span-2 text-right">Till fots</div>
 		<div class="col-span-4 mx-4">
-			Vi har ordnat med transfer mellan kyrkan och festlokalen. Ska ni åka bil hela dagen får ni
-			gärna maila Teodor eller Louise så dom vet hur många platser som behövs för buss.
+			Malmö är en platt stad och det går fint att promenera till kyrkan, vilket tar 45 minuter från
+			Malmö C respektive från Triangeln station.
 		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
-		<div class="col-span-2 text-right">Transport hem</div>
+		<div class="col-span-2 text-right">Taxi</div>
+		<div class="col-span-4 mx-4">För taxi rekommenderar vi Taxi Skåne och Bolt.</div>
+	</div>
+
+	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
+		<div class="col-span-2 text-right">Från vigsel till fest</div>
 		<div class="col-span-4 mx-4">
-			På kvällen hem från festen är det lättast att boka taxi. Vi meddelar Kävlinge taxi att vi
-			behöver flera taxis efter 12 snåret. <a href="https://bolt.eu">Bolt</a> rekomenderas också.
+			Mellan kyrkan och festlokalen är det knappt tio minuters promenad.
 		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Klädsel</div>
-		<div class="col-span-4 mx-4">Sommarfin klädsel</div>
+		<div class="col-span-4 mx-4">
+			Något ni känner er fina i, underlaget på Grand Cirkus Hotell är grus och gräs, så tänk på det
+			vid valet av skor.
+		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Barn</div>
-		<div class="col-span-4 mx-4">Vigseln och festen är barnfri, med undantag för ammande barn.</div>
+		<div class="col-span-4 mx-4">
+			Barn är välkomna, meddela oss om det i samband med OSA. Anmäl barn separat via formuläret.
+			Kontakta Louise eller Teodor vid frågor.
+		</div>
 	</div>
 
 	<div class="grid grid-rows-1 grid-cols-6 gap-1 mb-8">
 		<div class="col-span-2 text-right">Presenter</div>
 		<div class="col-span-4 mx-4">
 			Er närvaro är gåva nog, men om ni vill ge oss någonting önskar vi oss ett bidrag till vår
-			bröllopsresa.
+			bröllopsresa. Swish: <a href="tel:0703338952">0703338952</a>
 		</div>
 	</div>
 
