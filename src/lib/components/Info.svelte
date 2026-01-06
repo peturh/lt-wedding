@@ -91,7 +91,9 @@
 		margin-bottom: 1rem;
 	}
 	.pre-title {
-		font-family: 'Petit Formal Script', cursive;
+		font-family: 'Jost', sans-serif;
+		font-weight: 200;
+		font-style: italic;
 		font-size: 18px;
 		margin: 1rem auto;
 		letter-spacing: 0;
@@ -99,7 +101,9 @@
 	}
 
 	.ampersand {
-		font-family: 'Petit Formal Script', cursive;
+		font-family: 'Jost', sans-serif;
+		font-weight: 200;
+		font-style: italic;
 	}
 	.top-section {
 		margin: 0 auto;
