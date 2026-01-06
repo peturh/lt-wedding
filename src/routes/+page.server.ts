@@ -29,7 +29,8 @@ export const actions = {
                 name: name.toString(),
                 phoneNumber: phoneNumber.toString(),
                 email: email.toString(),
-                foodPreference: foodPreference.toString()
+                foodPreference: foodPreference.toString(),
+                password: password?.toString() ?? ''
             }
         }
     }

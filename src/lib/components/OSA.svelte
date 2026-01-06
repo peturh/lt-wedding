@@ -2,8 +2,8 @@
 	import { fade } from 'svelte/transition';
 
 	import { enhance } from '$app/forms';
-	import type { ActionData } from './$types';
 	import dayjs from 'dayjs';
+	import type { ActionData } from '../../routes/$types';
 	export let form: ActionData;
 	const now = dayjs();
 	const secondOfMarch = dayjs('2024-03-02');
