@@ -1,31 +1,20 @@
 <script lang="ts">
-	let appended = false;
-	function actionWhenInViewport(e: any) {
-		const observer = new IntersectionObserver((entries) => {
-			if (entries[0].isIntersecting && appended === false) {
-				let wrapper = document.getElementById('map-wrapper');
-				let iframe = document.createElement('iframe');
-				iframe.setAttribute('title', 'Karta över platser');
-				iframe.setAttribute(
-					'src',
-					'https://storage.googleapis.com/maps-solutions-qh33r87e57/locator-plus/o33d/locator-plus.html'
-				);
-				iframe.setAttribute('height', '100%');
-				iframe.setAttribute('width', '100%');
-				iframe.setAttribute('style', 'border:0');
-				iframe.setAttribute('loading', 'lazy');
-				wrapper?.append(iframe);
-				appended = true;
-			}
-		});
-
-		observer.observe(e);
-	}
 </script>
 
 <section>
 	<h2 id="karta">Hitta hit</h2>
-	<div id="map-wrapper" class="map-wrapper" use:actionWhenInViewport />
+	<div id="map-wrapper" class="map-wrapper">
+		<iframe
+			src="https://storage.googleapis.com/maps-solutions-qh33r87e57/locator-plus/o33d/locator-plus.html"
+			width="100%"
+			height="100%"
+			style="border:0;"
+			loading="lazy"
+			title="Karta över platser"
+			allow="geolocation; fullscreen"
+			referrerpolicy="no-referrer-when-downgrade"
+		/>
+	</div>
 </section>
 
 <style lang="less">
