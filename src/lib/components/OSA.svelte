@@ -71,6 +71,16 @@
 				/>
 			</div>
 			<div class="mb-4">
+				<label for="other">Övrigt</label>
+				<input
+					id="other"
+					placeholder="T.ex. barn eller annat vi behöver veta"
+					name="other"
+					type="text"
+					value={form?.other ?? ''}
+				/>
+			</div>
+			<div class="mb-4">
 				<label for="password">Lösenordet som står i inbjudan</label>
 				<input
 					id="password"
@@ -113,7 +123,7 @@
 	}
 
 	.success {
-		background: #aef8ae;
+		background: #d4e6d9;
 	}
 	.send-response {
 		width: 100%;
