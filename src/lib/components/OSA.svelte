@@ -5,16 +5,21 @@
 	import dayjs from 'dayjs';
 	import type { ActionData } from '../../routes/$types';
 	export let form: ActionData;
-	const now = dayjs();
-	const secondOfMarch = dayjs('2024-03-02');
-	export let openRSVP = now.diff(secondOfMarch) < 0 ? true : false;
+
+	// RSVP deadline - set to null to keep form open, or use format 'YYYY-MM-DD'
+	const RSVP_DEADLINE: string | null = null; // e.g. '2025-03-01'
+
+	const deadline = RSVP_DEADLINE ? dayjs(RSVP_DEADLINE) : null;
+	const isOpen = !deadline || dayjs().isBefore(deadline);
 </script>
 
 <h2 id="osa">Om svar anhålles</h2>
 
-{#if openRSVP}
+{#if isOpen}
 	<section>
-		<p>O.s.a senast första mars 2024.</p>
+		{#if deadline}
+			<p>O.s.a senast {deadline.format('D MMMM YYYY')}.</p>
+		{/if}
 		<p>En person per formulär.</p>
 
 		<form method="post" use:enhance>
