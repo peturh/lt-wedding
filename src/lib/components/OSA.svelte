@@ -7,10 +7,11 @@
 	export let form: ActionData;
 
 	// RSVP deadline - set to null to keep form open, or use format 'YYYY-MM-DD'
-	const RSVP_DEADLINE: string | null = '2026-04-01';
+	const RSVP_DEADLINE: string | null = '2026-03-01';
 
 	const deadline = RSVP_DEADLINE ? dayjs(RSVP_DEADLINE) : null;
-	const isOpen = !deadline || dayjs().isBefore(deadline);
+	// Form stays open until the end of the deadline day (closes when the next day begins)
+	const isOpen = !deadline || dayjs().isBefore(deadline.add(1, 'day'));
 </script>
 
 <h2 id="osa">Om svar anhålles</h2>
